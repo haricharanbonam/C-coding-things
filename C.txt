@@ -1,0 +1,31 @@
+1. When you compare string in java use .equals() or equalsIgnoreCase() don't use '==' because '==' compares references not values
+	if(s=="HI")-----X
+	if(strcmp(str1, str2)==0)-------V
+	==0 ------- equals
+	< 0 --------------it means str1 is lexicographically less than str2.
+	> 0 ------------  it means str1 is lexicographically greater than str2.
+
+2. to create infinte loop 
+	While(1){}
+
+3. To use power function in c
+	#include<math.h>
+	int x = pow(10, 3);
+4. if u wanna compare charsthen u can just use == 
+	if( s[0]=='k')
+5. if u wanna add to strings
+	strcat(a,b);
+	it means a=a+b;
+6. we don't use &s when scanning string because,
+	string is char array which means name of string(s) points to 1st elements and 
+	goes to end until there is '\0'
+7. to add character to a string
+	strncat(s, &a[n],1);
+8. if u wanna use INT_MIN, INT_MAX, use #include<limits.h>
+9. wanna use true, false #include<stdbool.h>
+10. assign a string to another by
+	strcpy(a,b);
+	it means a=b;
+11. ascii code for ' ' <space> is 32
+12. to scan a sentence includeing spaces
+	scanf("%[^\n]s",&s);
