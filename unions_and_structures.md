@@ -16,7 +16,7 @@ struct keyword everywhere But if you actually use type def This actually helps u
 
 
 
-```text
+
 You’ve got a solid understanding of unions, and you're definitely on the right track! Let me break it down and clarify a few points for you:
 
 1. **Definition of a Union:**
@@ -36,4 +36,3 @@ You’ve got a solid understanding of unions, and you're definitely on the right
 
 In summary, you’ve got the right idea! It’s definitely worth focusing on how unions share memory and the implications of accessing different members. And yes, in GATE, you’ll want to keep the theoretical aspects in mind rather than relying on what happens on a particular machine.
 
-```
