@@ -92,5 +92,6 @@ typedef struct {
 } Emp;
 
 Emp e = {"", 19};
-
+// this is called aggregate initialization
+//Aggregate initialization in C++ is a concise way to initialize arrays, structs, and classes (aggregates) using {} (braces) to directly assign values to their members in order, without needing explicit constructors for simple data structures, making code cleaner and efficient by bypassing constructor calls. It's powerful for initializing plain old data (POD) types, allowing partial initialization and default values for unassigned members. 
 ```
