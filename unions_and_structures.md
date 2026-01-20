@@ -36,3 +36,41 @@ You’ve got a solid understanding of unions, and you're definitely on the right
 
 In summary, you’ve got the right idea! It’s definitely worth focusing on how unions share memory and the implications of accessing different members. And yes, in GATE, you’ll want to keep the theoretical aspects in mind rather than relying on what happens on a particular machine.
 
+```c
+#include<stdio.h>
+#include<string.h>
+
+union student 
+{
+    char name[120];
+    int num;
+    char sec[20];
+    float roll;
+};
+int main() {
+    union student st;
+    printf("%d ",sizeof(st));
+
+    printf("%d ",sizeof(st.name));
+    
+    printf("%d ",sizeof(st.roll));
+    printf("%d ",sizeof(st.sec));
+    printf("%d ",sizeof(st.num));
+       printf("\n");
+        printf("%s ",st.name);
+    printf("%d ",st.num);
+    printf("%f ",st.roll);
+    printf("\n");
+    strcpy(st.name,"hari");
+    st.num=1000;
+    printf("%s ",st.name);
+    printf("%d ",st.num);
+    printf("%f ",st.roll);
+    // printf("%s ",st.num);
+    // printf("%s ",st.roll);
+    
+    
+    return 0;
+}
+
+```
