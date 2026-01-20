@@ -104,3 +104,8 @@ printf("%s",(*p).name);
 printf("%s",p->name);
 // Instead of accessing through structure variable you can Axis through its reference the pointer In that case you can use ->
 ```
+```c
+ 	// Create a copy of student s1
+  	struct Student s1c = s1;
+//deeep copy each one will have their own spacce changing one doesnt gonna effect another
+```
