@@ -84,3 +84,13 @@ struct node{
 /* One disadvantage of type def Is actually wherever you need to create something for like linked list You'll end up in a problem Because the type you are defining Is actually after the next point So that will give us a compilation error */
 ```
 
+```c
+//also define it like this
+typedef struct {
+    char name[20];
+    int age;
+} Emp;
+
+Emp e = {"", 19};
+
+```
